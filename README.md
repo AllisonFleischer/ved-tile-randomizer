@@ -1,3 +1,3 @@
 # Ved Tile Randomizer
 
-Use CTRL/CMD+R to randomize riles.
+Use CTRL/CMD+R to randomize tiles.
