@@ -1,5 +1,8 @@
 if nodialog and editingroomtext == 0 and editingroomname == false and (state == 1) and (key == "r") and (love.keyboard.isDown("l" .. ctrl) or love.keyboard.isDown("r" .. ctrl)) then
 
+	levelmetadata[(roomy)*20 + (roomx+1)].auto2mode = 0
+	levelmetadata[(roomy)*20 + (roomx+1)].directmode = 1
+
 	mt = {}
 
 	for i = 1, 2 do
