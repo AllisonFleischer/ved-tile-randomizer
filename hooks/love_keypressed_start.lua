@@ -9,7 +9,7 @@ if nodialog and editingroomtext == 0 and editingroomname == false and (state == 
 	for i = 1, 2 do
 		mt[i] = {}
 		for j = 1, 2 do
-				mt[i][j] = 0
+			mt[i][j] = 0
 		end
 	end
 
